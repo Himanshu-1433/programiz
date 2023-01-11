@@ -8,5 +8,6 @@ class prog1
         
         int number1 = input.nextInt();
         System.out.println("Number is : "+number1);
+        input.close();
     }
 }

@@ -9,5 +9,6 @@ class prog2
         int number1 = input.nextInt();
         int number2 = input.nextInt();
         System.out.println("the number Addtion is : "+(number1+number2));
+        input.close();
     }
 }

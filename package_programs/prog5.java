@@ -1,5 +1,5 @@
 // Java Program to Compute Quotient and Remainder
-import java.util.*;
+
 public class prog5
 {
     public static void main(String[] args)
