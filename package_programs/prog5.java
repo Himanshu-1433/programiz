@@ -1,12 +1,13 @@
 // Java Program to Compute Quotient and Remainder
 import java.util.*;
-class prog4
+public class prog5
 {
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
-        
-        int Ascii = (int) ch;
-        System.out.println("the Ascii is : "+Ascii);
+        double divisor = 2;
+        double dividend = 11;
+        double quantient = dividend / divisor;
+        double reminder = dividend % divisor;
+        System.out.println(reminder + " " + quantient);
     }
 }
