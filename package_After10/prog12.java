@@ -14,6 +14,6 @@ public class prog12 {
         }
     }
     public static void main(String[] args) {
-        prog12 obj = new prog12(-10.100);        
+        new prog12(-10.100);        
     }
 }

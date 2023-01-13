@@ -8,7 +8,9 @@ public class prog13 {
         System.out.print("Enter : ");
         Scanner input = new Scanner(System.in);
         char c = input.next().charAt(0);
-        prog13 obj = new prog13(c);        
+        new prog13(c);        
+
+        input.close();
     }
     
     public prog13(char chr){
